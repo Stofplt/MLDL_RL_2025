@@ -1,0 +1,6 @@
+For RHER run:
+conda env create -f environment.yml
+
+
+For TD3+HER run:
+conda activate mldl
