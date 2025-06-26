@@ -1,6 +1,10 @@
 For RHER run:
 conda env create -f environment.yml
+conda activate rher
+bash run_rher_push.sh
+
 
 
 For TD3+HER run:
 conda activate mldl
+python main.py --env push --save_model --plot --curriculum_learning
